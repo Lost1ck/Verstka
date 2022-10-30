@@ -1,0 +1,9 @@
+.f-container {
+  display: flex;
+}
+
+.block {
+  width: 100px;
+  height: 50px;
+  border: 1px solid #000;
+}/*# sourceMappingURL=main.css.map */

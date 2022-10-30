@@ -1,0 +1,71 @@
+@mixin clearfix {
+    &:after {
+      display: table;
+      clear: both;
+      content:'';
+    }
+  }
+  
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    margin-top: 3rem;
+  }
+  
+  .l-wrap {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .grid-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+  }
+  
+  .l-guest-article {
+    .l-guest {
+      width: percentage(2/12);
+      float: left;
+    }
+  
+    .l-main {
+      width: percentage(7/12);
+      float: left;
+    }
+  
+    .l-sidebar {
+      width: percentage(3/12);
+      float: left;
+    }
+  }
+  
+  /* Demo purposes */
+  .grid-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    text-align: center;
+    background: rgba(red, 0.25);
+  }
+  
+  .column {
+    width: calc((100% - 24px * 12) / 12);
+    margin-right: 12px;
+    margin-left: 12px;
+    background: rgba(blue,0.25);
+    float:left;
+    height: 80px;
+  }
+
+
+//   статья
+//   https://medium.com/web-standards/responsive-grid-system-89d07e48a564

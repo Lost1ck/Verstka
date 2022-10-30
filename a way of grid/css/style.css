@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.l-wrap {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+/* установка ширина для всей страницы */
+
+/* .three-col-grid .grid-item {
+    width: 380px; - 380*3(тк три блока) 1140/3 = 380
+    float: left;
+  } Невозможно использовать, если верстку будут тянуть или сжимать */
+
+  .three-col-grid .grid-item  {
+    width: 25%;
+    float: left;
+  }
+  /* Пропорциональное изменение шириы в окне браузера */
+
+  .three-col-grid::after {
+    display: table;
+    clear: both;
+    content: '';
+  }
+  /* добавляется тк главный элемент three-col-grid схлапывается на дочерних элементах под float*/
+
+  .grid-item {
+    width: calc((100% - 20px * 2) / 3);
+  }
+  /* невозможно сочетание двух разных систем счисления, но возможно через функцию calc */
+
+  .grid-item:last-child {
+    margin-right: 0;
+    float: right;
+
+  }
+  /* убираем внешний отступ у дочернего элемента + предотвращение вылета элемента введен float*/
+
+/* Для 3-колоночной сетки */
+.grid-item:nth-child(3n+3) {
+    margin-right: 0;
+    float: right;
+  }
+ /* если у нас сетка 3на3, то стоит удалить отступ у каждого элемента, чтобы всё не улетело */
+
+ 
