@@ -1,0 +1,13 @@
+.block {
+  border: 1px solid #000;
+  height: 350px;
+  position: relative;
+}
+
+.item {
+  background-color: grey;
+  height: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}/*# sourceMappingURL=main.css.map */

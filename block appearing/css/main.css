@@ -10,9 +10,10 @@
 }
 
 .item2 {
-  background-color: orange;
+  display: none;
 }
 
-.item3 {
-  background-color: blue;
+.content:hover .item2 {
+  z-index: 1;
+  display: block;
 }/*# sourceMappingURL=main.css.map */
