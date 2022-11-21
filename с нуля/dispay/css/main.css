@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.example-block {
+  padding: 10px 20px 30px 5px;
+  border: 1px solid #000;
+}
+
+.example-string {
+  padding: 20px;
+}/*# sourceMappingURL=main.css.map */
