@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Downloads/nik0wn.github.io-master/css"
+		},
+		{
+			"path": "../../../../../Downloads/nik0wn.github.io-master/fonts"
+		},
+		{
+			"path": "../../../../../Downloads/nik0wn.github.io-master/images"
+		},
+		{
+			"path": "../../../../../Downloads/nik0wn.github.io-master/img"
+		},
+		{
+			"path": "../../../../../Downloads/nik0wn.github.io-master/js"
+		},
+		{
+			"path": "../../../../../Downloads/nik0wn.github.io-master/lib"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css"
+	}
+}

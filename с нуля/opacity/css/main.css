@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.example-block {
+  font-size: 50px;
+  margin: 50px;
+  text-shadow: 1px 1px 1px rgb(200, 250, 20);
+  box-shadow: 5px 2px 55px rgb(200, 200, 200), inset 5px 2px 55px rgb(200, 200, 0);
+}
+
+.example-string {
+  font-size: 50px;
+}/*# sourceMappingURL=main.css.map */
