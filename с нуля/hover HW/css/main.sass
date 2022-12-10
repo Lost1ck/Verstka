@@ -12,6 +12,14 @@
 
 h2
 
+button
+  min-width: 50px
+  color: white
+  background: #00FFFF
+  border-radius: 5px
+  padding: 2px 8px
+  border-color: .5 black
+
 .texthead
   color: #666
   text-transform: uppercase
@@ -26,9 +34,15 @@ ul
   text-decoration: line-through
   font-weight: 200
 
+.textul>li:nth-child(2)
+  font-weight: 600
 
 .activewindow
-  max-width: 400px
   margin: 20px 0 20px 0
   display: flex
   justify-content: space-around
+
+
+.activewindow > button:nth-child(1)
+  color: white
+  background: blue
